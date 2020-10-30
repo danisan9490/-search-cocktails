@@ -90,7 +90,7 @@ const Receta = ({ receta }) => {
                 {informacion.strInstructions}
               </p>
 
-              <img className="img-fluid my-4" src={informacion.strDrinkThumb} />
+              <img className="img-fluid my-4" src={informacion.strDrinkThumb} alt="img" />
               <h3>Ingredients and quantities</h3>
 
               <ul>
